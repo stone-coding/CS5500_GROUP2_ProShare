@@ -1,0 +1,48 @@
+# ===== Backend =====
+proshare-backend/venv/
+proshare-backend/__pycache__/
+proshare-backend/*.pyc
+proshare-backend/.env
+
+# ===== Frontend =====
+proshare-frontend/node_modules/
+proshare-frontend/dist/
+proshare-frontend/.env.local
+
+# ===== System =====
+.DS_Store
+.idea/
+.vscode/
+
+# ===== Env =====
+.env
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+.env.local
+
+
+
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
