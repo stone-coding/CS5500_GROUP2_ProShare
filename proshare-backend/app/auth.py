@@ -8,8 +8,7 @@ from sqlalchemy.orm import Session
 
 from app.database import get_db
 from app.models import User
-
-SECRET_KEY = "proshare-super-secret-key-change-this-later"
+from app.config import SECRET_KEY
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 60
 
