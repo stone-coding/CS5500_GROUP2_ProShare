@@ -29,6 +29,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",
         "http://127.0.0.1:5173",
+        "https://cs-5500-group-2-pro-share.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
