@@ -53,12 +53,13 @@ ProShare is a full-stack web application that allows users to create, search, an
 
 Frontend (React)
 ↓
-REST API (FastAPI)
+Backend (FastAPI REST API)
 ↓
 PostgreSQL (Neon DB)
+
+Backend (FastAPI)
 ↓
 OpenAI API (LLM)
-
 
 ---
 
